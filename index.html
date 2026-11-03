@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Free AI Tools — From Idea to Finished Work. · Free webinar, Sat Nov 14</title>
+<meta name="description" content="A free live webinar on Google Meet. Sat, Nov 14, 6 PM WAT. Learn to make a faceless video, a landing page, a logo, a motion graphic, a voiced ad and a business plan with free AI tools.">
+<meta name="theme-color" content="#0B0C0A">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Free AI Tools — From Idea to Finished Work.">
+<meta property="og:description" content="Free live webinar · Sat, Nov 14 · 6 PM WAT · Google Meet">
+<meta property="og:url" content="https://daneki123.github.io/free-ai-tools/">
+<meta property="og:image" content="https://daneki123.github.io/free-ai-tools/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://daneki123.github.io/free-ai-tools/og.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/Inter.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:'Inter';src:url(fonts/Inter.woff2) format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:'JBM';src:url(fonts/JetBrainsMono.woff2) format('woff2');font-weight:100 800;font-display:swap}
+:root{--bg:#0B0C0A;--fg:#F2F3EC;--mute:rgba(242,243,236,.62);--line:rgba(242,243,236,.14);--lime:#C6FF00;--card:#131411}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.45;overflow-x:hidden}
+a{color:inherit}
+em{font-style:normal;color:var(--lime)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+.glow{position:absolute;pointer-events:none;width:760px;height:760px;right:-360px;top:-300px;border-radius:50%;background:radial-gradient(circle,rgba(198,255,0,.11),rgba(198,255,0,0) 65%)}
+header{position:relative;overflow:hidden}
+.top{display:flex;align-items:center;justify-content:space-between;padding-top:22px}
+.pill{display:inline-block;font-family:'JBM';font-weight:800;font-size:12px;letter-spacing:.12em;background:var(--lime);color:var(--bg);border-radius:999px;padding:8px 13px 7px}
+.count{font-family:'JBM';font-size:12px;letter-spacing:.06em;color:var(--mute)}
+.hstar{display:none}
+h1{font-weight:800;letter-spacing:-.045em;line-height:.96;font-size:clamp(46px,13.2vw,128px);margin-top:44px}
+.lede{color:var(--mute);font-size:17px;max-width:30em;margin-top:22px}
+.meta{display:grid;grid-template-columns:1fr 1fr 1fr;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:34px}
+.meta div{padding:16px 0 15px}
+.meta div+div{padding-left:14px;border-left:1px solid var(--line)}
+.meta b{display:block;font-family:'JBM';font-weight:700;font-size:10.5px;letter-spacing:.14em;color:var(--lime);margin-bottom:5px}
+.meta span{font-weight:700;font-size:16px;letter-spacing:-.02em}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:700 17px/1 'Inter';letter-spacing:-.01em;background:var(--lime);color:var(--bg);border:0;border-radius:999px;padding:19px 28px;text-decoration:none;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease}
+.btn:hover{transform:translateY(-1px);box-shadow:0 10px 30px -12px rgba(198,255,0,.6)}
+.btn:active{transform:translateY(1px)}
+.hero-cta{margin:30px 0 64px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.free{font-family:'JBM';font-size:12.5px;color:var(--mute);letter-spacing:.04em}
+section{padding:60px 0;border-top:1px solid var(--line)}
+.kicker{font-family:'JBM';font-weight:700;font-size:12px;letter-spacing:.14em;color:var(--lime)}
+h2{font-weight:800;letter-spacing:-.035em;line-height:1.02;font-size:clamp(32px,8.4vw,60px);margin-top:12px}
+.list{list-style:none;margin-top:30px;display:grid;gap:0}
+.list li{display:flex;align-items:baseline;gap:18px;padding:17px 0;border-bottom:1px solid var(--line);font-weight:600;font-size:20px;letter-spacing:-.02em}
+.list li i{font-style:normal;font-family:'JBM';font-weight:700;font-size:13px;color:var(--lime);min-width:22px}
+.note{margin-top:24px;color:var(--mute);font-size:16px;max-width:32em}
+form{margin-top:30px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px 20px 22px}
+label{display:block;font-family:'JBM';font-weight:700;font-size:11px;letter-spacing:.12em;color:var(--mute);margin:0 0 9px}
+label small{font-weight:400;letter-spacing:.04em;text-transform:none}
+input{width:100%;font:500 18px/1.2 'Inter';color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:16px 16px;outline:none;margin-bottom:20px;-webkit-appearance:none}
+input::placeholder{color:rgba(242,243,236,.35)}
+input:focus{border-color:var(--lime);box-shadow:0 0 0 3px rgba(198,255,0,.16)}
+input.bad{border-color:#ff6b5b}
+form .btn{width:100%;margin-top:4px}
+.fine{margin-top:14px;font-size:13.5px;color:var(--mute);text-align:center}
+footer{border-top:1px solid var(--line);padding:30px 0 44px;color:var(--mute);font-size:13.5px}
+footer p+p{margin-top:6px}
+@media (min-width:860px){
+ .wrap{padding:0 48px}
+ .top{padding-top:34px}
+ .hstar{display:block;position:absolute;width:220px;height:220px;right:max(48px,calc(50% - 512px));top:190px}
+ h1{margin-top:70px}
+ .lede{font-size:20px}
+ .meta{max-width:760px}
+ .meta div{padding:20px 0 19px}.meta div+div{padding-left:24px}
+ .meta span{font-size:22px}
+ .hero-cta{margin:38px 0 96px}
+ section{padding:96px 0}
+ .split{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
+ .list{margin-top:0}
+ .list li{font-size:22px}
+ form{margin-top:0;padding:34px 32px 30px}
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="glow"></div>
+ <svg class="hstar" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5l2.6 7.9 7.9 2.6-7.9 2.6L12 22.5l-2.6-7.9L1.5 12l7.9-2.6z" fill="#C6FF00"/></svg>
+ <div class="wrap">
+  <div class="top"><span class="pill">FREE WEBINAR</span><span class="count" id="count"></span></div>
+  <h1>Free AI Tools —<br>From Idea to<br><em>Finished Work.</em></h1>
+  <p class="lede">One live hour. No paid subscriptions. Just a phone or laptop, a Google account and an idea.</p>
+  <div class="meta">
+   <div><b>DATE</b><span>Sat, Nov 14</span></div>
+   <div><b>TIME</b><span>6 PM WAT</span></div>
+   <div><b>WHERE</b><span>Google Meet</span></div>
+  </div>
+  <div class="hero-cta"><a class="btn" href="#join">Save my free seat <span aria-hidden="true">→</span></a><span class="free">FREE · ONLINE · LIVE</span></div>
+ </div>
+</header>
+
+<section id="learn">
+ <div class="wrap split">
+  <div>
+   <p class="kicker">WHAT YOU'LL MAKE</p>
+   <h2>Six real projects.<br><em>Zero paid tools.</em></h2>
+   <p class="note">I'll build each one live, step by step, so you can do it yourself the same evening.</p>
+  </div>
+  <ol class="list">
+   <li><i>01</i>A faceless video</li>
+   <li><i>02</i>A landing page, live online</li>
+   <li><i>03</i>A logo and brand kit</li>
+   <li><i>04</i>A motion graphic</li>
+   <li><i>05</i>A voiced ad</li>
+   <li><i>06</i>A business plan</li>
+  </ol>
+ </div>
+</section>
+
+<section id="join">
+ <div class="wrap split">
+  <div>
+   <p class="kicker">SAVE YOUR SEAT</p>
+   <h2>Join in<br><em>ten seconds.</em></h2>
+   <p class="note">Add your name and tap the button. WhatsApp opens with your message ready to send, and you're in.</p>
+  </div>
+  <form id="f" novalidate>
+   <label for="name">YOUR NAME</label>
+   <input id="name" name="name" autocomplete="given-name" placeholder="e.g. Amaka" required>
+   <label for="want">WHAT DO YOU WANT TO MAKE? <small>(optional)</small></label>
+   <input id="want" name="want" placeholder="e.g. a logo for my business">
+   <button class="btn" type="submit">Join on WhatsApp <span aria-hidden="true">→</span></button>
+   <p class="fine">Free. Opens WhatsApp with your message typed in.</p>
+  </form>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <p>Free AI Tools — From Idea to Finished Work. · Sat, Nov 14 · 6 PM WAT · Google Meet</p>
+  <p>This page was described in one paragraph and built with free AI tools.</p>
+ </div>
+</footer>
+
+<script>
+(function(){
+ var start=new Date('2026-11-14T18:00:00+01:00'), c=document.getElementById('count');
+ var w=new Date(Date.now()+36e5), d=Math.round((Date.UTC(2026,10,14)-Date.UTC(w.getUTCFullYear(),w.getUTCMonth(),w.getUTCDate()))/864e5);
+ c.textContent = d>1 ? d+' DAYS TO GO' : d===1 ? 'TOMORROW' : (d===0 ? 'TODAY' : '');
+ var f=document.getElementById('f'), n=document.getElementById('name'), w=document.getElementById('want');
+ f.addEventListener('submit',function(e){
+  e.preventDefault();
+  var name=n.value.trim(), want=w.value.trim();
+  if(!name){n.classList.add('bad');n.focus();return;}
+  n.classList.remove('bad');
+  var msg="Hi, I'm "+name+", joining the free webinar on Sat, Nov 14 (6 PM WAT).";
+  if(want) msg+=" I'd love to learn how to make "+want.replace(/[.!\s]+$/,'')+".";
+  window.location.href='https://wa.me/2348136434695?text='+encodeURIComponent(msg);
+ });
+ n.addEventListener('input',function(){n.classList.remove('bad');});
+})();
+</script>
+</body>
+</html>
